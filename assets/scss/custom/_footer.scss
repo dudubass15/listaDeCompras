@@ -1,0 +1,13 @@
+@use './colors';
+
+footer {
+    width: 100%;
+    min-height: 50px;
+    background-color: colors.$bg-bluedark;
+    z-index: 9999;
+
+    span {
+        font-size: 0.9rem;
+        color: colors.$bg-white;
+    }
+}

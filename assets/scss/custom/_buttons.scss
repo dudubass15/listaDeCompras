@@ -1,0 +1,87 @@
+@use './colors';
+
+.btn-green {
+    color: colors.$bg-white;
+    background-color: colors.$bg-green;
+    border-color: colors.$bg-green;
+    border: 1px solid colors.$bg-green;
+
+    &:hover {
+        background-color: colors.$bg-bluedark;
+        border: 1px solid colors.$bg-bluedark;
+    }
+
+    &:active {
+        background-color: colors.$bg-bluedark;
+        border: 1px solid colors.$bg-bluedark;
+    }
+}
+
+.btn-search {
+    border: none;
+    outline: none;
+    color: colors.$bg-white;
+
+    &:focus {
+        border: none;
+        outline: none;
+        color: colors.$bg-green;
+    }
+
+    &:active {
+        border: none;
+        outline: none;
+        color: colors.$bg-green;
+    }
+}
+
+.btn-add {
+    border: none;
+    outline: none;
+    color: colors.$bg-white;
+    background-color: colors.$bg-green;
+
+    &:focus {
+        border: none;
+        outline: none;
+        color: colors.$bg-white;
+        background: #318550;
+    }
+
+    &:active {
+        border: none;
+        outline: none;
+        color: colors.$bg-white;
+        background: #318550;
+    }
+}
+
+.btn-filter {
+    min-width: 150px;
+    height: 40px;
+    border: 1px solid colors.$bg-marronwhite;
+    border-radius: 20px;
+    margin: 6px;
+    margin-top: 6px;
+    font-size: 1rem;
+    color: colors.$bg-marrondark;
+
+    &:hover {
+        border: 1px solid colors.$bg-green;
+        color: colors.$bg-white;
+        background-color: colors.$bg-green;
+    }
+
+    &:active {
+        border: 1px solid colors.$bg-green;
+        color: colors.$bg-white;
+        background-color: colors.$bg-green;
+    }
+
+}
+
+.active {
+    border: 1px solid colors.$bg-green;
+    color: colors.$bg-white;
+    background-color: colors.$bg-green;
+}

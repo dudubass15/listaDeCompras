@@ -1,0 +1,175 @@
+@use './assets/scss/bootstrap/scss/bootstrap.scss';
+@use './assets/scss/custom/colors';
+@use './assets/scss/custom/buttons';
+@use './assets/scss/custom/card';
+@use './assets/scss/custom/fonts';
+@use './assets/scss/custom/utils';
+@use './assets/scss/custom/footer';
+@use './assets/scss/custom/responsive';
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Ruda', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.navbar {
+    min-height: 60px;
+
+    a {
+        text-decoration: none;
+        color: colors.$bg-white;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .photo {
+        width: 42px;
+        height: 42px;
+        background-color: transparent;
+        border: 2px solid colors.$bg-white;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%;
+        }
+    }
+}
+
+.panel {
+    .btn-add {
+        display: none;        
+    }
+}
+
+// Responsive
+@media only screen and (min-width: responsive.$media-screen-tablet) {
+    // body {
+    //     background: rgba(255, 255, 0, 0.411);
+    // }
+}
+
+@media only screen and (min-width: responsive.$media-screen-desktopS) {
+
+    .navbar {
+        .container {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            .collapse .navbar-nav .nav-item .nav-link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: colors.$bg-white;
+                min-width: 40px;
+                height: 100%;
+
+                &:hover {
+                    background-color: #55bc7b81;
+                    border-radius: 2px;
+                    transition: all 1s ease;
+                }
+
+                &:active {
+                    background-color: #55bc7b81;
+                    border-radius: 2px;
+                    transition: all 1s ease;
+                }
+
+                i {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .panel {
+
+        border: none;
+
+        span {
+            font-size: 1.2rem;
+        }
+
+        // Oculta botão de pesquisa
+        .btn-search {
+            display: none;
+        }
+
+        // Mostra botão de adicionar p/ desktop
+        .btn-add {
+            display: block;
+            
+            &:hover {
+                background-color: #48a56a;
+
+                i {
+                    color: colors.$bg-white;
+                }
+            }
+
+            &:active {
+                background-color: #48a56a;
+
+                i {
+                    color: colors.$bg-white;
+                }
+            }
+
+            &:focus {
+                background-color: #48a56a;
+
+                i {
+                    color: colors.$bg-white;
+                }
+            }
+        }
+
+        .span-filter {
+            width: 130px;
+            height: 40px;
+            font-size: 1rem;
+            color: colors.$bg-white;
+            background-color: colors.$bg-bluedark;
+        }
+
+        // ::-webkit-scrollbar {
+        //     width: 0px;
+        // }
+
+    }
+
+    .bg-bluedark-desktop {
+        color: colors.$bg-bluedark;
+        background: transparent;
+        box-shadow: none !important;
+    }
+
+    .btn-green {
+        &:hover {
+            background-color: colors.$bg-bluedark;
+            border: 1px solid colors.$bg-white;
+        }
+        &:active {
+            background-color: colors.$bg-bluedark;
+            border: 1px solid colors.$bg-white;
+        }
+    }
+
+    .btn-search {
+        &:hover {
+            color: colors.$bg-green;
+        }
+    }
+}

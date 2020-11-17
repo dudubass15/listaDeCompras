@@ -1,0 +1,36 @@
+$bg-bluedark:       #272E42;
+$bg-marronwhite:    #B3BAC8;
+$bg-white:          #FFFFFF;
+$bg-green:          #55BC7A;
+$bg-marrondark:     #858585;
+$bg-black:          #000000;
+$bg-blue:           #0069D9;
+
+.bg-bluedark {
+    color: $bg-white;
+    background-color: $bg-bluedark;
+}
+.bg-marronwhite {
+    color: $bg-marronwhite;
+    background-color: $bg-marronwhite;
+}
+.bg-white {
+    color: $bg-white;
+    background-color: $bg-white;
+}
+.bg-green {
+    color: $bg-green;
+    background-color: $bg-green;
+}
+.bg-marrondark {
+    color: $bg-marrondark;
+    background-color: $bg-marrondark;
+}
+.bg-black {
+    color: $bg-black;
+    background-color: $bg-black;
+}
+.bg-blue {
+    color: $bg-blue;
+    background-color: $bg-blue;
+}

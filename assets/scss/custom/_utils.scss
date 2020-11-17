@@ -1,0 +1,9 @@
+@use './colors';
+
+.mh-100 {
+    min-height: 100% !important;
+}
+// Aplica quando o filtro é ativado
+.active-filter {
+    display: flex !important;
+}

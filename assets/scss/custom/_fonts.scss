@@ -1,0 +1,17 @@
+@use './colors';
+
+.font-color-green {
+    color: colors.$bg-green;
+}
+.font-color-bluedark {
+    color: colors.$bg-bluedark;
+}
+.font-color-blue {
+    color: colors.$bg-blue;
+}
+.font-color-black {
+    color: colors.$bg-black;
+}
+.font-color-marronwhite {
+    color: colors.$bg-marronwhite;
+}
