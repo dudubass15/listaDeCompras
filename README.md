@@ -33,6 +33,16 @@ ou
 
 Feito isso, você deverá ter agora uma nova pasta chamada **node_modules**.
 
+Outra coisa que será necessário fazer para rodar o projeto localmente é ter um copilador Sass instalado.
+
+Pode utilizar esse aqui: [https://sass-lang.com/install](https://sass-lang.com/install)
+
+Após realizar os procedimentos acima, basta rodar o seguinte comando:
+
+> npm run sass
+
+E o copilador deverá ser iniciado.
+
 ## Status/Andamento
 
 Em desenvolvimento.
