@@ -36,6 +36,8 @@ html, body {
         background-color: transparent;
         border: 2px solid colors.$bg-white;
         overflow: hidden;
+        outline: none;
+        cursor: pointer;
 
         img {
             width: 100%;
@@ -55,11 +57,7 @@ html, body {
 }
 
 // Responsive
-@media only screen and (min-width: responsive.$media-screen-tablet) {
-    // body {
-    //     background: rgba(255, 255, 0, 0.411);
-    // }
-}
+@media only screen and (min-width: responsive.$media-screen-tablet) {}
 
 @media only screen and (min-width: responsive.$media-screen-desktopS) {
 

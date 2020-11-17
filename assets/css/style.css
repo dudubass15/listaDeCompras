@@ -10060,7 +10060,7 @@ h3 {
 }
 
 .mh-100 {
-  min-height: 100% !important;
+  min-height: 100%;
 }
 
 .active-filter {
@@ -10107,6 +10107,8 @@ html, body {
   background-color: transparent;
   border: 2px solid #FFFFFF;
   overflow: hidden;
+  outline: none;
+  cursor: pointer;
 }
 .navbar .photo img {
   width: 100%;
