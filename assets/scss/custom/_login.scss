@@ -1,0 +1,18 @@
+@use './colors';
+@use './responsive';
+
+.container-login {
+    min-width: 400px;
+    max-width: 450px;
+    margin: auto;
+}
+.checkbox-login:checked {
+    all: unset;
+    border: none;
+    display: inline-block;
+    background: colors.$bg-green;
+    color: colors.$bg-white;
+    border-radius: 2px;
+    width: 13px;
+    height: 13px;
+}

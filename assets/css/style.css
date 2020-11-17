@@ -10003,6 +10003,23 @@ h3 {
   background-color: #55BC7A;
 }
 
+.btn-login {
+  color: #FFFFFF;
+  background-color: #55BC7A;
+  border-color: #55BC7A;
+  border: 1px solid #55BC7A;
+}
+.btn-login:hover {
+  color: #FFFFFF;
+  background-color: #318550;
+  border: 1px solid #318550;
+}
+.btn-login:active {
+  color: #FFFFFF;
+  background-color: #318550;
+  border: 1px solid #318550;
+}
+
 .active {
   border: 1px solid #55BC7A;
   color: #FFFFFF;
@@ -10078,6 +10095,23 @@ footer span {
   color: #FFFFFF;
 }
 
+.container-login {
+  min-width: 400px;
+  max-width: 450px;
+  margin: auto;
+}
+
+.checkbox-login:checked {
+  all: unset;
+  border: none;
+  display: inline-block;
+  background: #55BC7A;
+  color: #FFFFFF;
+  border-radius: 2px;
+  width: 13px;
+  height: 13px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10123,6 +10157,27 @@ html, body {
   display: none;
 }
 
+@media only screen and (max-width: 375px) {
+  .container-login {
+    min-width: 90%;
+    max-width: 90%;
+    margin: auto;
+  }
+  .container-login h2 {
+    font-size: 1.6rem;
+  }
+
+  .checkbox-login:checked {
+    all: unset;
+    border: none;
+    display: inline-block;
+    background: #55BC7A;
+    color: #FFFFFF;
+    border-radius: 2px;
+    width: 13.5px;
+    height: 13.5px;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .navbar .container {
     padding-left: 15px !important;
