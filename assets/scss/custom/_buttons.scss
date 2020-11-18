@@ -80,6 +80,25 @@
 
 }
 
+.btn-login {
+    color: colors.$bg-white;
+    background-color: colors.$bg-green;
+    border-color: colors.$bg-green;
+    border: 1px solid colors.$bg-green;
+
+    &:hover {
+        color: colors.$bg-white;
+        background-color: #318550;
+        border: 1px solid #318550;
+    }
+
+    &:active {
+        color: colors.$bg-white;
+        background-color: #318550;
+        border: 1px solid #318550;
+    }
+}
+
 .active {
     border: 1px solid colors.$bg-green;
     color: colors.$bg-white;
