@@ -21,6 +21,14 @@ As tecnologias que estão sendo usadas neste projeto são:
 3. JavaScript.
 4. JQuery.
 
+Segue abaixo alguns screenshots do projeto:
+
+![Tela de Login](./assets/img/screenshots/login.png)
+
+![Tela Inicial](./assets/img/screenshots/home.png)
+
+![Tela cadastro de Produtos](./assets/img/screenshots/cadastro.png)
+
 ## Instalação/Configuração
 
 Para instalar e configurar o projeto é bem fácil, basta clonar o repositório em seu computador e em seguida executar o seguinte comando dentro da pasta do projeto:
