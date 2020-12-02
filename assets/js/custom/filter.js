@@ -3,4 +3,5 @@ let containerFilter = document.querySelector('#filter');
 
 btnFilter.addEventListener('click', () => {
     containerFilter.classList.toggle('active-filter');
+    btnFilter.classList.toggle('active');
 });

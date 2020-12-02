@@ -41,6 +41,89 @@
     color: colors.$bg-white;
     background-color: colors.$bg-green;
 
+    &:hover {
+        color: colors.$bg-white;
+        background: #318550;
+    }
+
+    &:focus {
+        border: none;
+        outline: none;
+        color: colors.$bg-white;
+        background: #318550;
+    }
+
+    &:active {
+        border: none;
+        outline: none;
+        color: colors.$bg-white;
+        background: #318550;
+    }
+}
+.btn-del {
+    border: none;
+    outline: none;
+    color: colors.$bg-white;
+    background-color: colors.$bg-red;
+
+    &:hover {
+        color: colors.$bg-white;
+        background: #ca0404;
+    }
+
+    &:focus {
+        border: none;
+        outline: none;
+        color: colors.$bg-white;
+        background: #ca0404;
+    }
+
+    &:active {
+        border: none;
+        outline: none;
+        color: colors.$bg-white;
+        background: #ca0404;
+    }
+}
+
+.btn-prev {
+    border: none;
+    outline: none;
+    color: colors.$bg-white;
+    background-color: colors.$bg-green;
+    border-radius: 50%;
+
+    &:hover {
+        color: colors.$bg-white;
+        background: #318550;
+    }
+
+    &:focus {
+        border: none;
+        outline: none;
+        color: colors.$bg-white;
+        background: #318550;
+    }
+
+    &:active {
+        border: none;
+        outline: none;
+        color: colors.$bg-white;
+        background: #318550;
+    }
+}
+
+.btn-next-list {
+    border: none;
+    outline: none;
+    color: colors.$bg-white;
+    background-color: colors.$bg-green;
+
+    &:hover {
+        color: colors.$bg-white;
+        background: #318550;
+    }
+
     &:focus {
         border: none;
         outline: none;

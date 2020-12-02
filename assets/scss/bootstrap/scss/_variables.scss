@@ -17,6 +17,15 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
+// Custom
+$bg-bluedark:       #272E42 !default;
+$bg-marronwhite:    #B3BAC8 !default;
+$bg-white:          #FFFFFF !default;
+$bg-green:          #55BC7A !default;
+$bg-marrondark:     #858585 !default;
+$bg-black:          #000000 !default;
+$bg-blue:           #0069D9 !default;
+
 $grays: () !default;
 $grays: map-merge(
   (

@@ -8,3 +8,9 @@
 .active-filter {
     display: flex !important;
 }
+
+// Aplica bordar
+.border-bottom-default {
+    border-bottom: 1px solid colors.$bg-marrondark;
+    border-radius: 0.8px;
+}
