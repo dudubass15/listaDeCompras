@@ -14,3 +14,12 @@
     border-bottom: 1px solid colors.$bg-marrondark;
     border-radius: 0.8px;
 }
+
+// Aplica borda no lado esquerdo de 6px
+.border-green-6 {
+    border-left: 6px solid colors.$bg-green;
+}
+
+.min-height-0 {
+    min-height: auto !important;
+}

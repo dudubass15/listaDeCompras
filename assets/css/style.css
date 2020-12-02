@@ -9932,6 +9932,38 @@ h3 {
   background-color: #0069D9;
 }
 
+.color-bluedark {
+  color: #272E42;
+}
+
+.color-marronwhite {
+  color: #B3BAC8;
+}
+
+.color-white {
+  color: #FFFFFF;
+}
+
+.color-green {
+  color: #55BC7A;
+}
+
+.color-marrondark {
+  color: #858585;
+}
+
+.color-black {
+  color: #000000;
+}
+
+.color-blue {
+  color: #0069D9;
+}
+
+.color-red {
+  color: #FF0000;
+}
+
 .btn-green {
   color: #FFFFFF;
   background-color: #55BC7A;
@@ -10033,6 +10065,29 @@ h3 {
   background: #318550;
 }
 
+.btn-print {
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+  background-color: #55BC7A;
+}
+.btn-print:hover {
+  color: #FFFFFF;
+  background: #318550;
+}
+.btn-print:focus {
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+  background: #318550;
+}
+.btn-print:active {
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+  background: #318550;
+}
+
 .btn-next-list {
   border: none;
   outline: none;
@@ -10054,6 +10109,21 @@ h3 {
   outline: none;
   color: #FFFFFF;
   background: #318550;
+}
+
+.btn-default {
+  background: transparent;
+  border: none;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.btn-default:hover {
+  outline: none;
+  border: none;
+}
+.btn-default:active {
+  outline: none;
+  border: none;
 }
 
 .btn-filter {
@@ -10130,6 +10200,20 @@ h3 {
   border: 2px solid #272E42;
 }
 
+.table .thead-green {
+  color: #FFFFFF;
+  background-color: #55BC7A;
+}
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #55BC7A;
+}
+
+.table-hover > tbody tr:hover {
+  color: #000000;
+  background-color: #65d68e1f;
+}
+
 .font-color-green {
   color: #55BC7A;
 }
@@ -10161,6 +10245,14 @@ h3 {
 .border-bottom-default {
   border-bottom: 1px solid #858585;
   border-radius: 0.8px;
+}
+
+.border-green-6 {
+  border-left: 6px solid #55BC7A;
+}
+
+.min-height-0 {
+  min-height: auto !important;
 }
 
 footer {

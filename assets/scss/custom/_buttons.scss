@@ -113,6 +113,32 @@
     }
 }
 
+.btn-print {
+    border: none;
+    outline: none;
+    color: colors.$bg-white;
+    background-color: colors.$bg-green;
+
+    &:hover {
+        color: colors.$bg-white;
+        background: #318550;
+    }
+
+    &:focus {
+        border: none;
+        outline: none;
+        color: colors.$bg-white;
+        background: #318550;
+    }
+
+    &:active {
+        border: none;
+        outline: none;
+        color: colors.$bg-white;
+        background: #318550;
+    }
+}
+
 .btn-next-list {
     border: none;
     outline: none;
@@ -136,6 +162,23 @@
         outline: none;
         color: colors.$bg-white;
         background: #318550;
+    }
+}
+
+.btn-default {
+    background: transparent;
+    border: none;
+    padding-left: 4px;
+    padding-right: 4px;
+
+    &:hover {
+        outline: none;
+        border: none;
+    }
+
+    &:active {
+        outline: none;
+        border: none;
     }
 }
 

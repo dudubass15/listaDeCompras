@@ -1,0 +1,24 @@
+@use './colors';
+
+.table {
+
+    .thead-green {
+        color: colors.$bg-white;
+        background-color: colors.$bg-green;
+    }
+
+    thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid colors.$bg-green;
+    }
+
+}
+
+.table-hover > tbody tr {
+    
+    &:hover {
+        color: colors.$bg-black;
+        background-color: #65d68e1f;
+    }
+
+}
